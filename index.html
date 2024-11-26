@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bookmarks Manager</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌟 My Bookmarks 🌟</h1>
+    <p class="subtitle">Save and organize your favorite websites</p>
+    <div class="form-container">
+      <input id="siteName" type="text" placeholder="Enter bookmark name" />
+      <input id="siteURL" type="text" placeholder="Enter website URL" />
+      <button id="addBookmark">Add Bookmark</button>
+    </div>
+    <p id="errorMessage" class="error-message"></p>
+    <table id="bookmarksTable">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Website Name</th>
+          <th>Visit</th>
+          <th>Delete</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Bookmarks will be rendered here -->
+      </tbody>
+    </table>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
